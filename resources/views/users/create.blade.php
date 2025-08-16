@@ -1,0 +1,26 @@
+@extends('layouts.app')
+
+@section('content')
+<h1 class="h4 mb-3">Tambah Sales</h1>
+<div class="card">
+    <div class="card-body">
+        <form method="POST" action="{{ route('users.store') }}">
+            @csrf
+            <div class="mb-3">
+                <label class="form-label">Nama</label>
+                <input type="text" name="name" class="form-control" value="{{ old('name') }}" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" value="{{ old('email') }}" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" name="password" class="form-control" required>
+            </div>
+            <a href="{{ route('users.index') }}" class="btn btn-secondary">Batal</a>
+            <button type="submit" class="btn btn-primary">Simpan</button>
+        </form>
+    </div>
+</div>
+@endsection
