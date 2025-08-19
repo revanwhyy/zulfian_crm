@@ -1,7 +1,7 @@
 [ZulfianCRM](http://18.215.188.11:8080/)
-# Revan CRM — CRM Sederhana untuk Perusahaan Internet (ISP)
+# Zulfian CRM — CRM Sederhana untuk Perusahaan Internet (ISP)
 
-Revan CRM adalah aplikasi CRM sederhana berbasis Laravel 11 untuk membantu Internet Service Provider (ISP) mengelola proses dari lead hingga menjadi pelanggan. Aplikasi ini mendukung katalog produk (paket internet), pengajuan oleh calon pelanggan (lead), penugasan ke sales oleh manager, pembaruan status oleh sales, hingga persetujuan/penolakan oleh manager.
+Zulfian CRM adalah aplikasi CRM sederhana berbasis Laravel 11 untuk membantu Internet Service Provider (ISP) mengelola proses dari lead hingga menjadi pelanggan. Aplikasi ini mendukung katalog produk (paket internet), pengajuan oleh calon pelanggan (lead), penugasan ke sales oleh manager, pembaruan status oleh sales, hingga persetujuan/penolakan oleh manager.
 
 Aplikasi menggunakan Bootstrap 5 dan DataTables untuk tampilan tabel yang nyaman. Autentikasi menggunakan sesi (login/logout) dengan dua peran utama: manager dan sales.
 
