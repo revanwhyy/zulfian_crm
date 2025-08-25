@@ -77,7 +77,7 @@ Setelah seeding, tersedia akun berikut:
    - php artisan migrate --seed
 4. Jalankan aplikasi
    - php artisan serve
-   - Buka http://localhost:8000
+   - Buka http://localhost:8080
 5. Login
    - Masuk sebagai Manager/Sales menggunakan kredensial di atas untuk mengakses dashboard.
 
@@ -95,8 +95,8 @@ Setelah seeding, tersedia akun berikut:
    - Ekstensi PHP umum aktif (pdo, pdo_pgsql untuk PostgreSQL).
 
 2. Clone repositori
-   - git clone https://github.com/your-org/revan_crm.git
-   - cd revan_crm
+   - git clone https://github.com/your-org/zulfian_crm.git
+   - cd zulfian_crm
 
 3. Salin dan konfigurasi environment
    - Salin file .env.example menjadi .env
@@ -134,7 +134,7 @@ Setelah seeding, tersedia akun berikut:
 
 7. Jalankan server lokal
    - php artisan serve
-   - Akses aplikasi di browser: http://localhost:8000
+   - Akses aplikasi di browser: http://localhost:8080
 
 8. Login ke dashboard
    - Gunakan kredensial di atas untuk masuk sebagai Manager atau Sales.
