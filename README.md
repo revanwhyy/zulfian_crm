@@ -1,4 +1,4 @@
-[ZulfianCRM](http://13.220.31.80:8080/)
+[ZulfianCRM](http://3.235.127.174:8080/)
 # Zulfian CRM — CRM Sederhana untuk Perusahaan Internet (ISP)
 
 Zulfian CRM adalah aplikasi CRM sederhana berbasis Laravel 11 untuk membantu Internet Service Provider (ISP) mengelola proses dari lead hingga menjadi pelanggan. Aplikasi ini mendukung katalog produk (paket internet), pengajuan oleh calon pelanggan (lead), penugasan ke sales oleh manager, pembaruan status oleh sales, hingga persetujuan/penolakan oleh manager.
